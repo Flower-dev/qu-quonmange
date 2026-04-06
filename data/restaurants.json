@@ -1,0 +1,94 @@
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "La Pizzeria Royale",
+      "category": "Pizzeria",
+      "description": "Pizzas authentiques cuites au feu de bois",
+      "emoji": "🍕",
+      "appreciation": 4,
+      "recurrence": 3
+    },
+    {
+      "id": "2",
+      "name": "Sushi Dreams",
+      "category": "Japonais",
+      "description": "Sushis frais préparés par des maîtres",
+      "emoji": "🍣",
+      "appreciation": 5,
+      "recurrence": 2
+    },
+    {
+      "id": "3",
+      "name": "Le Burger Paradise",
+      "category": "Burgers",
+      "description": "Burgers gourmet faits maison",
+      "emoji": "🍔",
+      "appreciation": 3,
+      "recurrence": 4
+    },
+    {
+      "id": "4",
+      "name": "Thaï Sensation",
+      "category": "Thaï",
+      "description": "Cuisine thaïlandaise authentique et épicée",
+      "emoji": "🍜",
+      "appreciation": 4,
+      "recurrence": 2
+    },
+    {
+      "id": "5",
+      "name": "La Pasta Bella",
+      "category": "Italien",
+      "description": "Pâtes fraîches et sauces traditionnelles",
+      "emoji": "🍝",
+      "appreciation": 5,
+      "recurrence": 3
+    },
+    {
+      "id": "6",
+      "name": "Tacos Fiesta",
+      "category": "Mexicain",
+      "description": "Tacos savoureux et colorés",
+      "emoji": "🌮",
+      "appreciation": 3,
+      "recurrence": 2
+    },
+    {
+      "id": "7",
+      "name": "The Burger Joint",
+      "category": "Burgers",
+      "description": "Burgers classiques et frites croustillantes",
+      "emoji": "🍔",
+      "appreciation": 2,
+      "recurrence": 5
+    },
+    {
+      "id": "8",
+      "name": "Wok Express",
+      "category": "Asiatique",
+      "description": "Cuisine asiatique rapide et délicieuse",
+      "emoji": "🥢",
+      "appreciation": 4,
+      "recurrence": 3
+    },
+    {
+      "id": "9",
+      "name": "Le Kebab du Coin",
+      "category": "Kebab",
+      "description": "Kebabs généreux et savoureux",
+      "emoji": "🌯",
+      "appreciation": 3,
+      "recurrence": 5
+    },
+    {
+      "id": "10",
+      "name": "Poke Bowl House",
+      "category": "Hawaïen",
+      "description": "Poke bowls frais et colorés",
+      "emoji": "🥗",
+      "appreciation": 5,
+      "recurrence": 1
+    }
+  ]
+}
