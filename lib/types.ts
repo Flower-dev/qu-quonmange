@@ -8,6 +8,9 @@ export interface Restaurant {
   recurrence: number;
   budget: 1 | 2 | 3;
   coords: { lat: number; lng: number } | null;
+  website: string | null;
+  address: string | null;
+  menu: string | null;
 }
 
 export interface Filters {

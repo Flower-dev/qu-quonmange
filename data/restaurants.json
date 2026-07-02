@@ -9,7 +9,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8441, "lng": 2.3157 },
+      "address": "8 bis Rue Falguière, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "2",
@@ -20,7 +23,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8424, "lng": 2.3138 },
+      "address": "48 Bd de Vaugirard, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "3",
@@ -31,7 +37,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 1,
-      "coords": null
+      "coords": { "lat": 48.8446, "lng": 2.3234 },
+      "address": "49 Bd du Montparnasse, 75006 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "4",
@@ -42,7 +51,10 @@
       "appreciation": 3,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8412, "lng": 2.3105 },
+      "address": "41 Bd Pasteur, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "5",
@@ -53,7 +65,10 @@
       "appreciation": 4,
       "recurrence": 1,
       "budget": 3,
-      "coords": null
+      "coords": { "lat": 48.8412, "lng": 2.3081 },
+      "address": "8 Rue Nicolas Charlet, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "6",
@@ -64,29 +79,10 @@
       "appreciation": 4,
       "recurrence": 3,
       "budget": 2,
-      "coords": null
-    },
-    {
-      "id": "7",
-      "name": "Le Baribal",
-      "category": "Français",
-      "description": "Bar-restaurant convivial",
-      "emoji": "🐻",
-      "appreciation": 3,
-      "recurrence": 2,
-      "budget": 2,
-      "coords": null
-    },
-    {
-      "id": "8",
-      "name": "Marie Rose",
-      "category": "Français",
-      "description": "Cuisine maison et ambiance cosy",
-      "emoji": "🌹",
-      "appreciation": 4,
-      "recurrence": 2,
-      "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8417, "lng": 2.3110 },
+      "address": "36 Bd Pasteur, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "9",
@@ -97,7 +93,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8413, "lng": 2.2998 },
+      "address": "42 Rue Blomet, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "10",
@@ -108,7 +107,10 @@
       "appreciation": 3,
       "recurrence": 3,
       "budget": 1,
-      "coords": null
+      "coords": { "lat": 48.8417, "lng": 2.3037 },
+      "address": "33 Rue des Volontaires, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "11",
@@ -119,7 +121,10 @@
       "appreciation": 3,
       "recurrence": 3,
       "budget": 1,
-      "coords": null
+      "coords": { "lat": 48.8408, "lng": 2.2990 },
+      "address": "231 Rue de Vaugirard, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "12",
@@ -130,18 +135,24 @@
       "appreciation": 5,
       "recurrence": 1,
       "budget": 3,
-      "coords": null
+      "coords": { "lat": 48.8478, "lng": 2.3239 },
+      "address": "78 Rue du Cherche-Midi, 75006 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "13",
       "name": "La Cavapapa",
-      "category": "Italien",
-      "description": "Pizzas et plats italiens familiaux",
+      "category": "Bistrot",
+      "description": "Bistrot convivial avec tapas et vins",
       "emoji": "🍕",
       "appreciation": 3,
       "recurrence": 3,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8401, "lng": 2.3064 },
+      "address": "4 Rue d'Alleray, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "14",
@@ -152,7 +163,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8447, "lng": 2.3013 },
+      "address": "103 Rue Cambronne, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "15",
@@ -163,18 +177,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
-    },
-    {
-      "id": "16",
-      "name": "McDonald's",
-      "category": "Fast-food",
-      "description": "Le classique indétrônable",
-      "emoji": "🍟",
-      "appreciation": 2,
-      "recurrence": 4,
-      "budget": 1,
-      "coords": null
+      "coords": { "lat": 48.8437, "lng": 2.3020 },
+      "address": "51 Rue Cambronne, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "17",
@@ -185,18 +191,10 @@
       "appreciation": 5,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
-    },
-    {
-      "id": "18",
-      "name": "POKAWA",
-      "category": "Poké bowls",
-      "description": "Poké bowls frais et colorés",
-      "emoji": "🥗",
-      "appreciation": 3,
-      "recurrence": 3,
-      "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8344, "lng": 2.2991 },
+      "address": "45 Rue Brancion, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "19",
@@ -207,7 +205,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8426, "lng": 2.3036 },
+      "address": "3 Rue Péclet, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "20",
@@ -218,7 +219,10 @@
       "appreciation": 4,
       "recurrence": 1,
       "budget": 3,
-      "coords": null
+      "coords": { "lat": 48.8378, "lng": 2.2926 },
+      "address": "184 Rue de la Convention, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "21",
@@ -229,7 +233,10 @@
       "appreciation": 4,
       "recurrence": 1,
       "budget": 3,
-      "coords": null
+      "coords": { "lat": 48.8668, "lng": 2.3395 },
+      "address": "6 Rue Vivienne, 75002 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "22",
@@ -240,7 +247,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8409, "lng": 2.2996 },
+      "address": "225 Rue de Vaugirard, 75015 Paris",
+      "website": null,
+      "menu": null
     },
     {
       "id": "23",
@@ -251,7 +261,10 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": null
+      "coords": { "lat": 48.8419, "lng": 2.2989 },
+      "address": "81 Rue Lecourbe, 75015 Paris",
+      "website": null,
+      "menu": null
     }
   ]
 }

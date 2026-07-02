@@ -10,6 +10,9 @@ function seedRestaurants(): Restaurant[] {
     ...r,
     budget: r.budget ?? (2 as const),
     coords: r.coords ?? null,
+    website: r.website ?? null,
+    address: r.address ?? null,
+    menu: r.menu ?? null,
   }));
 }
 

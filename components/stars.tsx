@@ -1,55 +1,13 @@
-'use client';
-
 import { cn } from '@/lib/utils';
 
-interface StarsProps {
-  count: number;
-  onChange?: (value: number) => void;
-  className?: string;
-}
-
-export function Stars({ count, onChange, className }: StarsProps) {
-  const interactive = !!onChange;
-
+export function Stars({ count, onChange, className }: { count: number; onChange?: (v: number) => void; className?: string }) {
   return (
-    <span
-      className={cn('inline-flex gap-0.5', className)}
-      role={interactive ? 'group' : undefined}
-      aria-label={interactive ? undefined : `Note : ${count} sur 5`}
-    >
+    <span className={cn('inline-flex gap-0.5', className)} role={onChange ? 'group' : undefined}>
       {Array.from({ length: 5 }, (_, i) => {
-        const active = i < count;
-        const value = i + 1;
-
-        if (interactive) {
-          return (
-            <button
-              key={i}
-              type="button"
-              onClick={() => onChange(value)}
-              className={cn(
-                'transition-all duration-150 cursor-pointer',
-                active ? 'text-terracotta opacity-100 scale-100' : 'text-parchment opacity-60 scale-90',
-                'hover:scale-125 hover:opacity-100'
-              )}
-              aria-label={`Note ${value} sur 5`}
-            >
-              ★
-            </button>
-          );
-        }
-
-        return (
-          <span
-            key={i}
-            className={cn(
-              'transition-opacity',
-              active ? 'text-terracotta opacity-100' : 'text-parchment opacity-40'
-            )}
-          >
-            ★
-          </span>
-        );
+        const a = i < count;
+        return onChange
+          ? <button key={i} onClick={() => onChange(i + 1)} className={cn('transition-all duration-150 text-base', a ? 'text-coral' : 'text-border', 'hover:scale-125 hover:text-coral')} aria-label={`Note ${i + 1} sur 5`}>★</button>
+          : <span key={i} className={cn('text-sm', a ? 'text-coral' : 'text-border')}>★</span>;
       })}
     </span>
   );

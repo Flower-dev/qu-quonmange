@@ -1,7 +1,7 @@
 import type { Restaurant } from './types';
 
 const STORAGE_KEY = 'quequonmange_data';
-const CURRENT_VERSION = 2;
+const CURRENT_VERSION = 3;
 
 interface StorageSchema {
   version: number;
@@ -82,6 +82,20 @@ function migrate(data: StorageSchema): StorageSchema {
       };
     });
     version = 2;
+  }
+
+  // Migration v2 → v3 : ajout website, address, menu
+  if (version < 3) {
+    restaurants = restaurants.map((r) => {
+      const raw = r as unknown as Record<string, unknown>;
+      return {
+        ...r,
+        website: raw.website !== undefined ? (raw.website as string | null) : null,
+        address: raw.address !== undefined ? (raw.address as string | null) : null,
+        menu: raw.menu !== undefined ? (raw.menu as string | null) : null,
+      };
+    });
+    version = 3;
   }
 
   return { version, restaurants };
