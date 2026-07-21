@@ -11,6 +11,7 @@ export interface Restaurant {
   website: string | null;
   address: string | null;
   menu: string | null;
+  hours: string | null;
 }
 
 export interface Filters {

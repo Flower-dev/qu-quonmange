@@ -149,6 +149,7 @@ export function SpinnerView({ filteredRestaurants, allRestaurants, filters, setF
             <DistanceBadge restaurantCoords={selected.coords} userPosition={userPosition} />
           </div>
           <div className="flex items-center gap-1.5 justify-center"><span className="text-[11px] text-text-secondary">Fréquence</span><Stars count={selected.recurrence} className="text-[11px]" /></div>
+          {selected.hours && <p className="text-[11px] text-text-muted flex items-center justify-center gap-1"><svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>{selected.hours}</p>}
         </div>
       )}
 

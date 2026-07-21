@@ -6,7 +6,7 @@ import { Stars } from '@/components/stars';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
 
-const EMPTY: Omit<Restaurant, 'id'> = { name: '', category: '', description: '', emoji: '🍴', appreciation: 3, recurrence: 1, budget: 2, coords: null, website: null, address: null, menu: null };
+const EMPTY: Omit<Restaurant, 'id'> = { name: '', category: '', description: '', emoji: '🍴', appreciation: 3, recurrence: 1, budget: 2, coords: null, website: null, address: null, menu: null, hours: null };
 
 export function RestaurantForm({ restaurant, onSave, onCancel, onRequestPosition, userPosition, geoLoading }: {
   restaurant?: Restaurant | null; onSave: (d: Omit<Restaurant, 'id'>) => void; onCancel: () => void;
@@ -109,6 +109,11 @@ export function RestaurantForm({ restaurant, onSave, onCancel, onRequestPosition
               <input type="url" value={f.menu ?? ''} onChange={ev => setF({ ...f, menu: ev.target.value || null })} placeholder="https://…" className={cn(inp, 'pl-9')} />
             </div>
           </div>
+        </div>
+
+        <div className="bg-surface rounded-xl border border-border p-5 space-y-3">
+          <p className="text-[11px] font-semibold text-text-muted uppercase tracking-wider">Horaires</p>
+          <textarea value={f.hours ?? ''} onChange={ev => setF({ ...f, hours: ev.target.value || null })} placeholder="Ex : Lun-Sam 12:00–14:30, 19:00–22:30 · Dim fermé" rows={2} className={cn(inp, 'resize-y')} />
         </div>
 
         <div className="flex justify-end gap-3">

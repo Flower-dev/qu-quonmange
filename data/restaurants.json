@@ -9,10 +9,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8441, "lng": 2.3157 },
+      "coords": {
+        "lat": 48.8441,
+        "lng": 2.3157
+      },
       "address": "8 bis Rue Falguière, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": "Ouvert du lundi au samedi 12h00 - 14h00 / 18h00 - 22h00"
     },
     {
       "id": "2",
@@ -23,10 +27,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8424, "lng": 2.3138 },
+      "coords": {
+        "lat": 48.8424,
+        "lng": 2.3138
+      },
       "address": "48 Bd de Vaugirard, 75015 Paris",
-      "website": null,
-      "menu": null
+      "website": "https://www.okirama.fr/carte.php",
+      "menu": "https://www.okirama.fr/carte.php",
+      "hours": "Ouvert du lundi au vendredi 12h00 - 15h00 / 19h00 - 23h00 et les week-ends 19h00 - 23h00"
     },
     {
       "id": "3",
@@ -37,10 +45,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 1,
-      "coords": { "lat": 48.8446, "lng": 2.3234 },
+      "coords": {
+        "lat": 48.8446,
+        "lng": 2.3234
+      },
       "address": "49 Bd du Montparnasse, 75006 Paris",
-      "website": null,
-      "menu": null
+      "website": "https://lestreetfourlibanais.fr/",
+      "menu": "https://lestreetfourlibanais.fr/order",
+      "hours": "Ouvert du lundi au samedi 12h00 - 22h00"
     },
     {
       "id": "4",
@@ -51,10 +63,14 @@
       "appreciation": 3,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8412, "lng": 2.3105 },
+      "coords": {
+        "lat": 48.8412,
+        "lng": 2.3105
+      },
       "address": "41 Bd Pasteur, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": "Ouvert du mardi au samedi 12h00 - 14h00 / 19h00 - "
     },
     {
       "id": "5",
@@ -65,10 +81,14 @@
       "appreciation": 4,
       "recurrence": 1,
       "budget": 3,
-      "coords": { "lat": 48.8412, "lng": 2.3081 },
+      "coords": {
+        "lat": 48.8412,
+        "lng": 2.3081
+      },
       "address": "8 Rue Nicolas Charlet, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "6",
@@ -79,10 +99,14 @@
       "appreciation": 4,
       "recurrence": 3,
       "budget": 2,
-      "coords": { "lat": 48.8417, "lng": 2.3110 },
+      "coords": {
+        "lat": 48.8417,
+        "lng": 2.3110
+      },
       "address": "36 Bd Pasteur, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "9",
@@ -93,10 +117,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8413, "lng": 2.2998 },
+      "coords": {
+        "lat": 48.8413,
+        "lng": 2.2998
+      },
       "address": "42 Rue Blomet, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "10",
@@ -107,10 +135,14 @@
       "appreciation": 3,
       "recurrence": 3,
       "budget": 1,
-      "coords": { "lat": 48.8417, "lng": 2.3037 },
+      "coords": {
+        "lat": 48.8417,
+        "lng": 2.3037
+      },
       "address": "33 Rue des Volontaires, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "11",
@@ -121,10 +153,14 @@
       "appreciation": 3,
       "recurrence": 3,
       "budget": 1,
-      "coords": { "lat": 48.8408, "lng": 2.2990 },
+      "coords": {
+        "lat": 48.8408,
+        "lng": 2.2990
+      },
       "address": "231 Rue de Vaugirard, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "12",
@@ -135,10 +171,14 @@
       "appreciation": 5,
       "recurrence": 1,
       "budget": 3,
-      "coords": { "lat": 48.8478, "lng": 2.3239 },
+      "coords": {
+        "lat": 48.8478,
+        "lng": 2.3239
+      },
       "address": "78 Rue du Cherche-Midi, 75006 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "13",
@@ -149,10 +189,14 @@
       "appreciation": 3,
       "recurrence": 3,
       "budget": 2,
-      "coords": { "lat": 48.8401, "lng": 2.3064 },
+      "coords": {
+        "lat": 48.8401,
+        "lng": 2.3064
+      },
       "address": "4 Rue d'Alleray, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "14",
@@ -163,10 +207,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8447, "lng": 2.3013 },
+      "coords": {
+        "lat": 48.8447,
+        "lng": 2.3013
+      },
       "address": "103 Rue Cambronne, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "15",
@@ -177,10 +225,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8437, "lng": 2.3020 },
+      "coords": {
+        "lat": 48.8437,
+        "lng": 2.3020
+      },
       "address": "51 Rue Cambronne, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "17",
@@ -191,10 +243,14 @@
       "appreciation": 5,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8344, "lng": 2.2991 },
+      "coords": {
+        "lat": 48.8344,
+        "lng": 2.2991
+      },
       "address": "45 Rue Brancion, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "19",
@@ -205,10 +261,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8426, "lng": 2.3036 },
+      "coords": {
+        "lat": 48.8426,
+        "lng": 2.3036
+      },
       "address": "3 Rue Péclet, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "20",
@@ -219,10 +279,14 @@
       "appreciation": 4,
       "recurrence": 1,
       "budget": 3,
-      "coords": { "lat": 48.8378, "lng": 2.2926 },
+      "coords": {
+        "lat": 48.8378,
+        "lng": 2.2926
+      },
       "address": "184 Rue de la Convention, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "21",
@@ -233,10 +297,14 @@
       "appreciation": 4,
       "recurrence": 1,
       "budget": 3,
-      "coords": { "lat": 48.8668, "lng": 2.3395 },
+      "coords": {
+        "lat": 48.8668,
+        "lng": 2.3395
+      },
       "address": "6 Rue Vivienne, 75002 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "22",
@@ -247,10 +315,14 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8409, "lng": 2.2996 },
+      "coords": {
+        "lat": 48.8409,
+        "lng": 2.2996
+      },
       "address": "225 Rue de Vaugirard, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
     },
     {
       "id": "23",
@@ -261,10 +333,32 @@
       "appreciation": 4,
       "recurrence": 2,
       "budget": 2,
-      "coords": { "lat": 48.8419, "lng": 2.2989 },
+      "coords": {
+        "lat": 48.8419,
+        "lng": 2.2989
+      },
       "address": "81 Rue Lecourbe, 75015 Paris",
       "website": null,
-      "menu": null
+      "menu": null,
+      "hours": null
+    },
+    {
+      "id": "24",
+      "name": "Assanabel",
+      "category": "Libanais",
+      "description": "Intérieur élégant avec banquettes molletonnées pour des spécialités libanaises comme le kebbé et les falafels",
+      "emoji": "🇱🇧",
+      "appreciation": 4,
+      "recurrence": 2,
+      "budget": 2,
+      "coords": {
+        "lat": 48.8557,
+        "lng": 2.3336
+      },
+      "address": "38 Rue Jacob, 75006 Paris",
+      "website": "https://www.assanabelparis.com/restaurant/assanabel-saint-germain-des-pres/",
+      "menu": "https://www.assanabelparis.com/menu/",
+      "hours": "Ouvert tous les jours 12h00 - 14h30 / 19h00 - 23h00"
     }
   ]
 }

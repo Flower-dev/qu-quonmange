@@ -66,6 +66,7 @@ export function RestaurantList({ restaurants, filteredRestaurants, filters, setF
                     <DistanceBadge restaurantCoords={r.coords} userPosition={userPosition} />
                   </div>
                   <div className="mt-3 space-y-2">
+                    {r.hours && <p className="text-[11px] text-text-muted flex items-center gap-1"><svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" /></svg>{r.hours}</p>}
                     <RestaurantLinks restaurant={r} />
                     {r.coords && <MapPreview coords={r.coords} address={r.address} />}
                   </div>
