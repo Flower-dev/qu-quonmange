@@ -68,9 +68,9 @@
         "lng": 2.3105
       },
       "address": "41 Bd Pasteur, 75015 Paris",
-      "website": null,
-      "menu": null,
-      "hours": "Ouvert du mardi au samedi 12h00 - 14h00 / 19h00 - "
+      "website": "https://www.le41pasteur.com/",
+      "menu": "https://www.le41pasteur.com/menus-carte/",
+      "hours": "Ouvert du mardi au samedi 12h00 - 14h00 / 19h00 - 22h00"
     },
     {
       "id": "5",
@@ -86,13 +86,13 @@
         "lng": 2.3081
       },
       "address": "8 Rue Nicolas Charlet, 75015 Paris",
-      "website": null,
-      "menu": null,
-      "hours": null
+      "website": "https://www.pilgrimparis.com/",
+      "menu": "https://www.pilgrimparis.com/menu",
+      "hours": "Ouvert du mardi au samedi 12h00 - 13h30 / 19h30 - 21h00"
     },
     {
       "id": "6",
-      "name": "Mille Grazie",
+      "name": "Luisetta",
       "category": "Italien",
       "description": "Trattoria italienne chaleureuse",
       "emoji": "🍝",
@@ -106,7 +106,7 @@
       "address": "36 Bd Pasteur, 75015 Paris",
       "website": null,
       "menu": null,
-      "hours": null
+      "hours": "Ouvert tous les jours 11h30 - 23h00"
     },
     {
       "id": "9",
@@ -122,27 +122,9 @@
         "lng": 2.2998
       },
       "address": "42 Rue Blomet, 75015 Paris",
-      "website": null,
-      "menu": null,
-      "hours": null
-    },
-    {
-      "id": "10",
-      "name": "La Maison du Bonheur",
-      "category": "Asiatique",
-      "description": "Restaurant asiatique familial",
-      "emoji": "🏮",
-      "appreciation": 3,
-      "recurrence": 3,
-      "budget": 1,
-      "coords": {
-        "lat": 48.8417,
-        "lng": 2.3037
-      },
-      "address": "33 Rue des Volontaires, 75015 Paris",
-      "website": null,
-      "menu": null,
-      "hours": null
+      "website": "https://15eme.bongrestaurant.com/",
+      "menu": "https://15eme.bongrestaurant.com/menus-carte/",
+      "hours": "Ouvert sauf le mercredi 12h00 - 14h00 / 18h30 - 22h00"
     },
     {
       "id": "11",
@@ -160,7 +142,7 @@
       "address": "231 Rue de Vaugirard, 75015 Paris",
       "website": null,
       "menu": null,
-      "hours": null
+      "hours": "Ouvert du lundi au samedi 11h00 - 22h00"
     },
     {
       "id": "12",
@@ -176,9 +158,9 @@
         "lng": 2.3239
       },
       "address": "78 Rue du Cherche-Midi, 75006 Paris",
-      "website": null,
+      "website": "https://www.anima.paris/",
       "menu": null,
-      "hours": null
+      "hours": "Ouvert du lundi au vendredi 12h00 - 15h00 / 19h00 - 23h00 et les week-ends 12h15 - 15h / 19h30 - 23h00"
     },
     {
       "id": "13",
@@ -194,9 +176,9 @@
         "lng": 2.3064
       },
       "address": "4 Rue d'Alleray, 75015 Paris",
-      "website": null,
-      "menu": null,
-      "hours": null
+      "website": "https://www.cavapapa.fr/menu",
+      "menu": "https://www.cavapapa.fr/menu",
+      "hours": "Ouvert du mardi et mercredi  19h00 - 02h00 le jeudi  19h00 - 22h30 et les vendredi et samedi 11h00 - 15h00 / 19h00 - 22h30"
     },
     {
       "id": "14",
@@ -212,9 +194,9 @@
         "lng": 2.3013
       },
       "address": "103 Rue Cambronne, 75015 Paris",
-      "website": null,
-      "menu": null,
-      "hours": null
+      "website": "https://www.meltslowsmokedbarbecue.com/",
+      "menu": "https://www.meltslowsmokedbarbecue.com/menu-melt-cambronne",
+      "hours": "Ouvert du lundi au jeudi 12h00 - 14h00 / 19h00 - 22h00 vendredi 12h00 - 14h00 / 18h30 - 22h30 samedi 12h00 - 15h00 / 18h30 - 22h30 dimanche 12h00 - 15h00 / 19h00 - 22h00"
     },
     {
       "id": "15",
